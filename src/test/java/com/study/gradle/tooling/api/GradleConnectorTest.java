@@ -57,7 +57,7 @@ public class GradleConnectorTest {
     public void communicateWithCurrentProject() {
         GradleConnector connector = new GradleConnector( CURRENT_PROJECT_DIR);
 
-//        assertTrue(connector.buildProject());
+        assertTrue(connector.buildProject());
         assertTrue(connector.buildProject("compileJava"));
         assertEquals(Arrays.asList("junit-4.4.jar", "gradle-tooling-api-4.0.2.jar", "slf4j-api-1.7.10.jar", "junit-4.4.jar", "gradle-tooling-api-4.0.2.jar", "slf4j-api-1.7.10.jar", "junit-4.4.jar", "gradle-tooling-api-4.0.2.jar", "slf4j-api-1.7.10.jar"), connector.getProjectDependencyNames());
 
