@@ -18,13 +18,5 @@ dependencies {
     compile 'junit:junit:4.4'
 
     compile "org.gradle:gradle-tooling-api:${project.ext.toolingApiVersion}"
-    /*compile name: 'gradle-core-2.1'
-    compile name: 'gradle-tooling-api-2.1'
-    compile name: 'gradle-resources-2.1'
-    compile name: 'gradle-messaging-2.1'
-    compile name: 'gradle-base-services-2.1'
-    compile name: 'gradle-wrapper-2.1'
-    compile name: 'guava-jdk5-17.0'
-    compile name: 'slf4j-api-1.7.5'*/
 }
 
