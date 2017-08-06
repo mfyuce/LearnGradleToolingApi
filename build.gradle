@@ -25,6 +25,3 @@ dependencies {
     compile name: 'slf4j-api-1.7.5'
 }
 
-test {
-    enabled = false;
-}

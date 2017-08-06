@@ -19,10 +19,8 @@ import java.util.stream.Collectors;
 public class GradleConnector {
     private org.gradle.tooling.GradleConnector connector;
 
-    public GradleConnector(String gradleInstallationDir, String projectDir) {
-        File gradleInstallationDir1 = new File(gradleInstallationDir);
+    public GradleConnector(String projectDir) {
         connector = org.gradle.tooling.GradleConnector.newConnector();
-        connector.useInstallation(gradleInstallationDir1);
         connector.forProjectDirectory(new File(projectDir));
     }
 

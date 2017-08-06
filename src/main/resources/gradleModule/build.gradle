@@ -19,5 +19,9 @@ dependencies {
 
 task copyDepJars(type: Copy) {
     from configurations.compile
-    into 'C:\\Users\\athakur\\Desktop\\lib'
+    into './/dep_libs'
+}
+
+test {
+    enabled = false
 }
