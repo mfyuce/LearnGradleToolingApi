@@ -77,8 +77,4 @@ fabric.properties
 
 .gradle/
 build/
-src/main/resources/gradleModule/.gradle/4.0/
-src/main/resources/gradleModule/.gradle/buildOutputCleanup/
-src/main/resources/gradleModule/build/dependency-cache/
-src/main/resources/gradleModule/build/tmp/compileJava/
-src/main/resources/gradleModule/dep_libs/
+.idea/
